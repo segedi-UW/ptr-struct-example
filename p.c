@@ -16,8 +16,8 @@ void arrayExample(void) {
 	
 	int intArray[5];
 	char charArray[5];
-	printf("Sizeof  intArray: %ld\n", sizeof(intArray)); 	// should be 20 bytes
-	printf("Sizeof charArray: %ld\n", sizeof(charArray));	// should be 5 bytes
+	printf("Sizeof  intArray: %ld\n", sizeof(intArray)); 	// likely to be 20 bytes
+	printf("Sizeof charArray: %ld\n", sizeof(charArray));	// likely to be 5 bytes
 
 	// You can think of Arrays as const pointers with reserved memory.
 	// We cannot increment an Array directly like before,
