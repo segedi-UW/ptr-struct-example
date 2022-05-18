@@ -10,8 +10,8 @@ void printPointer(void *ptr, const char *msg) {
 void arrayExample(void) {
 	// An array is nearly identical to a pointer, a pointer to a block of memory that is reserved for the array.
 	// These blocks are the size of the Type of the array * the number of elements. For example,
-	// an int array[] of length 5 would take up a block of 20 bytes, since an int is 4 bytes long.
-	// On the other hand, a char array[] of length 5 would only take up 5 bytes, since a char is 1 byte
+	// an int array[] of length 5 would take up a block of 20 bytes, assuming an int is 4 bytes long.
+	// On the other hand, a char array[] of length 5 would only take up 5 bytes, assuming a char is 1 byte
 	// long.
 	
 	int intArray[5];
