@@ -32,9 +32,9 @@ int main(void) {
 	// we can pass it like other variables
 	useStruct(&mine);
 	typedef struct mystruct mystruct; 	// we can define a type to shorten declarations
-										// This is typically done at the declaration of
-										// the struct type, but I just wanted to show you
-										// how it could be done
+						// This is typically done at the declaration of
+						// the struct type, but I just wanted to show you
+						// how it could be done
 	mystruct test;
 	test.id = 3;
 	test.msg = "Avoided extra typing!";
