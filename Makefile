@@ -1,6 +1,6 @@
 CFLAGS=-g -Wall
 
-compile : p s
+compile : p s pExercises
 
 p : p.c
 	gcc -o p p.c $(CFLAGS)
