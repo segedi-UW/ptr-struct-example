@@ -45,12 +45,17 @@ void pointerExample(void) {
 	p = "Hello There!";
 	// we can increment p's pointer to move it along
 	int len = strlen(p);
-	for (int i = 0; i < len; i++, p++) { // NOTE the 'p++', which increments the pointer
+	for (int i = 0; i < len; i++, p++) // NOTE the 'p++', which increments the pointer
 		printf(": %c\n", *p); // Remember this is how we defreference
-	}
+	
 	// we can also reset the pointer completely! Alternatively we make a copy in the beginning, and just recopy it.
 	p -= len;
 	printf("reset to: (%c)\n", *p);
+	
+	// Note that with strings we can also do the following:
+	printf("Iterating without using length or i:\n");
+	for (; *p != '\0'; p++)
+		printf(": %c\n", *p);
 }
 
 void pointerBasics() {
