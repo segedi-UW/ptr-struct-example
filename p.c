@@ -104,9 +104,9 @@ void pointerBasics() {
 }
 
 int main(void) {
-	//pointerBasics();
+	pointerBasics();
 	//pointerExample();
-	arrayExample();
+	//arrayExample();
 
 	return EXIT_SUCCESS;
 }
