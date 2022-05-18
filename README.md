@@ -4,6 +4,14 @@ This is a very basic introduction to pointers and structs (most assumes I am her
 
 # How to Use
 
+1. Read p.c
+2. run p.c
+3. Do pExercises (read/write pExercises.c)
+4. test pExercises by running
+5. Repeat with s.c / sExercises.c
+
+# Detailed How to Use
+
 First compile the first three sections
 ```bash
 make
