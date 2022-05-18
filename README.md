@@ -26,10 +26,12 @@ make <name>
 After that take a look at `pExercise.c` - you should complete the `mystrlen(const char *str)` method, **only using pointer arithmetic
 and your own loop** - try to use a custom for loop.
 
-When your done compile and run `pExercise.c`.
+When your done, compile and run `pExercise.c`.
 I have a very rudimentary test setup to make sure you get the right results that compares `mystrlen()` output with `strlen()`.
 
 Do the same thing with the s activities. You should know that sExercises.c will not compile until you fix the typedef for `mystruct`.
+Also note that compilation of `sExercises.c` needs to be done with `make sExercises`, as it is not included in the default Makefile
+target.
 
 ## Notes
 * Please note that while pointers and arrays are very similar they [are not the same](http://c-faq.com/aryptr/aryptr2.html). 
